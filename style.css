@@ -1,0 +1,175 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit
+}
+
+.box {
+    width: 480px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo {
+    max-width: 70%;
+    align-items: center;
+}
+
+ul {
+    text-align: center;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 20px 30px;
+    color: #f03000;
+
+}
+
+li:hover,
+li:focus {
+    color: white;
+    background-color: #f03000;
+
+}
+
+.palmy {
+    background-image: url(images/palmy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 240px;
+}
+
+.jezero {
+    background-image: url(images/jezero2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+.kolo {
+    background-image: url(images/nakole.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #444444;
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.dovo {
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.dovo__cena {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding: 10px;
+    background-color: #f03000;
+}
+
+.sluzby {
+    display: grid;
+    grid-template-rows: 4fr;
+    row-gap: 10px;
+
+}
+
+.sluzba {
+    padding: 20px;
+    background-color: #F0F0F0;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 2 auto;
+    column-gap: 20px;
+
+}
+
+.sluzba img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: center;
+}
+
+.sluzba h3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 0;
+    color: #f03000;
+}
+
+.sluzba p {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+}
+
+.horske {
+    background-image: url(images/lodicka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 240px;
+}
+
+.canyon {
+    background-image: url(images/podkova.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+.ostrovy {
+    background-image: url(images/zatoka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+
+}
+
+
+.novinka{
+    background-color: #F0F0F0;
+    padding: 20px;
+}
+
+.novinka h3{
+    color: #f03000;
+}
+
+.novinka__date{
+    color: #888888;
+}
+.novinky{
+    display: grid;
+    grid-template-rows: 3fr;
+    row-gap: 20px;
+}
